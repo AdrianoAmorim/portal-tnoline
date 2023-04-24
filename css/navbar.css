@@ -1,15 +1,23 @@
 /*BARRA DE NAVEGACAO NO HEADER*/
 .tn-box-navBar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 5px;
     background-color: var(--tn-tx-red);
+    margin-top: -1.5rem;
+  }
+  .tn-box-navBar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .9rem;
   }
    .tn-navBar {
     width: 100%;
     max-width: 40rem;
+    margin-right: 3rem;
   }
   
   .tn-navBar > ul {
@@ -27,23 +35,58 @@
   }
    .tn-boxClimaCotacao {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     width: 100%;
     max-width: 28rem;
     font-family: "Lato", sans-serif;
   }
-  .tn-boxClimaCotacao > .tn-clima {
+  .tn-boxClimaCotacao .tn-clima {
     display: flex;
     align-items: center;
+    gap:.7rem;
     border-right: 1px solid #fff;
+    cursor: pointer;
   }
-  
+  .tn-boxClimaCotacao .tn-clima > span{
+    color: #fff;
+    font-size: .7rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .tn-boxClimaCotacao  .tn-clima > span:nth-child(3){
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: .6rem;
+  }
    .tn-boxClimaCotacao .tn-clima > .imgClima {
     width: 100%;
     max-width: 2rem;
   }
-   .tn-boxClimaCotacao > .tn-clima img {
+   .tn-boxClimaCotacao  .tn-clima img {
     width: 100%;
+  }
+  .tn-boxClimaCotacao .tn-cotEuro{
+    padding: 0 .6rem;
+    cursor: pointer;
+  }
+
+  .tn-boxClimaCotacao .tn-cotEuro .container-textCotEuro > span,
+    .tn-boxClimaCotacao .tn-cotDolar .container-textCotDolar > span
+  {
+    color: #fff;
+    font-size: .7rem;
+  }
+  .tn-boxClimaCotacao .tn-cotEuro .container-textCotEuro > strong,
+  .tn-boxClimaCotacao .tn-cotDolar .container-textCotDolar > strong
+  {
+    color: #fff;
+    font-size: .8rem;
+  }
+  .tn-boxClimaCotacao .tn-cotDolar{
+    border-left: 1px solid #fff;
+    padding-left: .6rem;
+    cursor: pointer;
   }
   
    .tn-boxClimaCotacao .tn-cotEuro,
@@ -55,6 +98,7 @@
    .tn-boxClimaCotacao .tn-cotDolar > .imgCotDolar {
     width: 100%;
     max-width: 2rem;
+    margin-right: .6rem;
   }
   
    .tn-boxClimaCotacao .tn-cotEuro > .imgCotEuro img,
