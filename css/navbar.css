@@ -1,0 +1,70 @@
+/*BARRA DE NAVEGACAO NO HEADER*/
+.tn-box-navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--tn-tx-red);
+  }
+   .tn-navBar {
+    width: 100%;
+    max-width: 40rem;
+  }
+  
+  .tn-navBar > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+   .tn-navBar > ul > li > a {
+    font-size: 0.7rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+  }
+   .tn-boxClimaCotacao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 28rem;
+    font-family: "Lato", sans-serif;
+  }
+  .tn-boxClimaCotacao > .tn-clima {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #fff;
+  }
+  
+   .tn-boxClimaCotacao .tn-clima > .imgClima {
+    width: 100%;
+    max-width: 2rem;
+  }
+   .tn-boxClimaCotacao > .tn-clima img {
+    width: 100%;
+  }
+  
+   .tn-boxClimaCotacao .tn-cotEuro,
+   .tn-boxClimaCotacao .tn-cotDolar {
+    display: flex;
+    align-items: center;
+  }
+   .tn-boxClimaCotacao .tn-cotEuro > .imgCotEuro,
+   .tn-boxClimaCotacao .tn-cotDolar > .imgCotDolar {
+    width: 100%;
+    max-width: 2rem;
+  }
+  
+   .tn-boxClimaCotacao .tn-cotEuro > .imgCotEuro img,
+   .tn-boxClimaCotacao .tn-cotDolar > .imgCotDolar img {
+    width: 100%;
+  }
+  
+   .tn-boxClimaCotacao .tn-cotEuro > .container-textCotEuro,
+   .tn-boxClimaCotacao .tn-cotDolar > .container-textCotDolar {
+    display: flex;
+    flex-direction: column;
+  }
+  
