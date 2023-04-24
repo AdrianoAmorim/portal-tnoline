@@ -1,0 +1,59 @@
+@import url(./pallet-color.css);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:var(--tn-bg-gray);
+}
+.container {
+  width: 100%;
+  max-width: 1240px;
+  background-color: brown;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+header > .tn-header-boxMenu {
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+  width: 100%;
+  max-width: 10rem;
+  
+}
+header > .tn-header-boxMenu span{
+    font-size: .8rem;
+    color: var(--tn-tx-red);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}   
+
+header > .tn-header-boxMenu .tn-box-btnMenu {
+  display: flex;
+  align-items: center;
+}
+
+header > .tn-header-boxMenu .tn-box-btnMenu .btnMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.5rem;
+
+}
+
+header > .tn-header-boxMenu .tn-box-btnMenu .btnMenu .list-btn {
+  border: 3px solid var(--tn-tx-red);
+
+}
