@@ -1,0 +1,59 @@
+.tn-boxMaisLidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.tn-boxMaisLidas .tn-content-maisLidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tn-boxMaisLidas .tn-content-maisLidas > span {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.tn-boxMaisLidas .tn-content-maisLidas > a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: var(--tn-tx-gray);
+  font-size: 0.7rem;
+  border: 1px solid var(--tn-tx-gray);
+  border-radius: 5px;
+  padding: 0.2rem 2rem;
+}
+
+.tn-boxMaisLidas header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--tn-tx-red);
+}
+
+.tn-boxMaisLidas header > .tn-tituloSessao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-home,
+.tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-menuSessao {
+  width: 100%;
+  max-width: 2rem;
+}
+.tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-home > img,
+.tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-menuSessao img {
+  width: 100%;
+}
+
+.tn-boxMaisLidas header > .tn-tituloSessao > h2{
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}

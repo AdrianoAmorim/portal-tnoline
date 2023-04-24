@@ -1,6 +1,7 @@
 @import url(./pallet-color.css);
 @import url(./navbar.css);
 @import url(./header.css);
+@import url(./mais-lidas.css);
 
 
 * {
@@ -16,5 +17,5 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1240px;
+  max-width: 1040px;
 }
