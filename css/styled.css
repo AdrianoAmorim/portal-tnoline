@@ -95,7 +95,7 @@ header .tn-box-navBar{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 4rem;
+  padding: 5px;
   background-color: var(--tn-tx-red);
 }
 header .tn-navBar{
