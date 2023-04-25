@@ -29,6 +29,8 @@
     font-size: .9rem;
     margin-left: .7rem;
 }
+
+/*CREDITOS DO ARTIGO*/
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .tn-creditos-artigo{
     display: flex;
     flex-direction: column;
@@ -74,7 +76,7 @@
     margin-left: .9rem;
 }
 
-
+/*BANNER DE ANUNCIE NO PORTAL*/
 .tn-bannerAnuncie{
     display: flex;
     align-items: center;
@@ -95,6 +97,36 @@
 .tn-bannerAnuncie > span > a> b{
     
     font-style: normal;
+}
+.tn-publicidade{
+    text-align: center;
+}
+.tn-publicidade > span{
+    text-align: center;
+    font-size: .7rem;
+    color: #808080;
+}
+
+article{
+    word-wrap: break-word;
+    line-height: 32px;
+    font-size: 1.5rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 500;
+
+
+}
+article > aside{
+    text-align: center;
+}
+
+article > aside > span{
+    text-align: center;
+    font-size: .7rem;
+    color: #808080;
+}
+article p{
+    margin-bottom: 2.7rem;
 }
 /*AREA DE ANUNCIO LATERAL*/
 .tn-artigo .tn-boxContent-artigo .tn-anuncio-aside{
