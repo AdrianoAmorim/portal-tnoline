@@ -234,6 +234,7 @@ article .tn-receberNoticias > div {
 }
 article .tn-receberNoticias > div > a {
   margin-right: 0.9rem;
+  cursor: pointer;
 }
 article .tn-receberNoticias > div > a > div {
   width: 100%;
