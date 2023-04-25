@@ -33,7 +33,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: var(--tn-tx-red);
+  background-color: #cd150c;
 }
 
 .tn-boxMaisLidas header > .tn-tituloSessao {

@@ -95,19 +95,28 @@
     padding: .3rem;
     font-style: italic;
 }
+.tn-bannerAnuncie > span > a{
+    color:#e61f22 ;
+}
 .tn-bannerAnuncie > span > a> b{
-    
     font-style: normal;
 }
 .tn-publicidade{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .tn-publicidade > span{
-    text-align: center;
     font-size: .7rem;
     color: #808080;
 }
-
+.tn-publicidade > div{
+    width: 100%;
+    max-width: 18rem;
+}
+.tn-publicidade > div > img{
+    width: 100%;
+}
 article{
     word-wrap: break-word;
     line-height: 32px;
@@ -116,15 +125,7 @@ article{
 
 
 }
-article > aside{
-    text-align: center;
-}
 
-article > aside > span{
-    text-align: center;
-    font-size: .7rem;
-    color: #808080;
-}
 article p{
     font-family: "Lato",sans-serif;
     font-weight: 300;
@@ -135,7 +136,7 @@ article p i{
     font-weight: 700;
 }
 article a{
-    color: #ff1c1c;
+    color: #e61f22;
 }
 
 /*AREA DE CATEGORIAS RELACIONADAS*/
@@ -179,6 +180,12 @@ article .tn-catRelacionadas > .links-catRelacionadas > .left >a{
     position: sticky;
     top: 30px;
     z-index: 3;
-    height: 35rem;
+    height: 30rem;
     background-color: #969696;
+}
+.tn-artigo .tn-boxContent-artigo .tn-anuncio-aside aside >div{
+    width: 100%;
+}
+.tn-artigo .tn-boxContent-artigo .tn-anuncio-aside aside >div > img{
+    width: 100%;
 }
