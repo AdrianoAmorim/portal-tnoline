@@ -275,31 +275,30 @@ article .tn-receberNoticias > div > form > button {
   margin-left: -5px;
   cursor: pointer;
 }
-article .tn-maisNoticias{
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    background-color: #e8e8e8;
-    margin-bottom: 1rem;
+article .tn-maisNoticias {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #e8e8e8;
+  margin-bottom: 1rem;
 }
-article .tn-maisNoticias> h2{
-font-size: 1.1rem;
-font-family: "Lato",sans-serif;
-
+article .tn-maisNoticias > h2 {
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
 }
-article .tn-maisNoticias > ul > li{
-   list-style: none;
-   padding: .5rem 0;
-   border-bottom: 1px solid #c7c7c7 ;
+article .tn-maisNoticias > ul > li {
+  list-style: none;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #c7c7c7;
 }
-article .tn-maisNoticias > ul > li:last-child{
-    border:none
+article .tn-maisNoticias > ul > li:last-child {
+  border: none;
 }
-article .tn-maisNoticias > ul > li > a{
-    text-decoration:none;
-    font-size: 1rem;
-    font-family: "Lato",sans-serif;
-  color:#222;
+article .tn-maisNoticias > ul > li > a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  color: #222;
 }
 /*AREA DE ANUNCIO LATERAL*/
 .tn-artigo .tn-boxContent-artigo .tn-anuncio-aside {
