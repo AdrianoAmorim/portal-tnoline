@@ -111,8 +111,7 @@ article{
     word-wrap: break-word;
     line-height: 32px;
     font-size: 1.5rem;
-    font-family: "Lato",sans-serif;
-    font-weight: 500;
+    color: var(--tn-tx-black);
 
 
 }
@@ -126,7 +125,17 @@ article > aside > span{
     color: #808080;
 }
 article p{
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
     margin-bottom: 2.7rem;
+}
+article p i{
+    
+    color: var(--tn-tx-black);
+    font-weight: 700;
+}
+article a{
+    color: #ff1c1c;
 }
 /*AREA DE ANUNCIO LATERAL*/
 .tn-artigo .tn-boxContent-artigo .tn-anuncio-aside{
