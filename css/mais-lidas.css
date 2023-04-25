@@ -44,7 +44,7 @@
 .tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-home,
 .tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-menuSessao {
   width: 100%;
-  max-width: 2rem;
+  max-width: 1.5rem;
 }
 .tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-home > img,
 .tn-boxMaisLidas header > .tn-tituloSessao .tn-icon-menuSessao img {
@@ -56,4 +56,30 @@
     font-family: "Lato",sans-serif;
     text-transform: uppercase;
     font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/*PROPAGANDA PRIMEIRA PARTE DO ARTIGO*/
+.tn-boxPropaganda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.tn-boxPropaganda > .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  height: 17rem;
+}
+.tn-boxPropaganda .container > div{
+  width: 100%;
+  max-width: 50rem;
+}
+.tn-boxPropaganda .container > div >img{
+  width: 100%;
 }
