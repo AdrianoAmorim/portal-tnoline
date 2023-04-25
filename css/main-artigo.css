@@ -137,6 +137,39 @@ article p i{
 article a{
     color: #ff1c1c;
 }
+
+/*AREA DE CATEGORIAS RELACIONADAS*/
+article .tn-catRelacionadas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+article .tn-catRelacionadas > .titulo-catRelacionadas > span{
+    font-size: 1rem;
+    color: var(--tn-tx-gray);
+    font-family: "Lado",sans-serif;
+    font-weight: 600;
+}
+
+article .tn-catRelacionadas > .links-catRelacionadas{
+    display: flex;
+    width: 100%;
+    max-width: 25rem;
+
+}
+article .tn-catRelacionadas > .links-catRelacionadas > .left >a{
+    text-decoration: none;
+    background-color: #e2e2e2;
+    color: var(--tn-tx-black);
+    font-family: "Lado",sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px;
+
+}
+
+
 /*AREA DE ANUNCIO LATERAL*/
 .tn-artigo .tn-boxContent-artigo .tn-anuncio-aside{
     position: relative;
