@@ -5,35 +5,95 @@
   width: 100%;
   background-color: #fff;
 }
-
-.tn-boxMaisLidas .tn-content-maisLidas {
+.tn-boxMaisLidas .tn-content-maisLidas{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.tn-boxMaisLidas .tn-content-maisLidas > .button-content-maisLidas {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-right: 1px solid #c7c7c7 ;
+  width: 100%;
+  max-width: 8rem;
+  padding-right: 1.2rem;
 }
-.tn-boxMaisLidas .tn-content-maisLidas > span {
+.tn-boxMaisLidas .tn-content-maisLidas .button-content-maisLidas > span {
   font-family: "Lato", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
-.tn-boxMaisLidas .tn-content-maisLidas > a {
+.tn-boxMaisLidas .tn-content-maisLidas .button-content-maisLidas > div {
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  width: 100%;
+  vertical-align: baseline;
+  text-align: center;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .button-content-maisLidas > div > a{
   text-decoration: none;
   font-family: "Lato", sans-serif;
-  color: var(--tn-tx-gray);
+  color: #b7b7b7;
   font-size: 0.7rem;
-  border: 1px solid var(--tn-tx-gray);
-  border-radius: 5px;
-  padding: 0.2rem 2rem;
+  padding: 0 10px;
+  
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas{
+  position: relative;
+  width: 100%;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul > li{
+  position: relative;
+  width: 100%;
+  list-style: none;
+  text-align: end;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul > li >div{
+
+ margin-bottom: -30px;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul > li >div >span{
+  font-size: 6rem;
+  font-family: "Lato",sans-serif;
+  font-weight: 700;
+  color: #a9a9a9 ;
+}
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul > li > a{
+  position: absolute;
+  text-decoration: none;
+  left: 1.1rem;
+  top: 1rem;
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 10%,#f9f9f9 90%);
 }
 
+.tn-boxMaisLidas .tn-content-maisLidas .list-maisLidas ul > li > a > p{
+  font-size: .9rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  padding-right: 1.7rem;
+  width: 100%;
+  color: #000;
+}
 .tn-boxMaisLidas header {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   background-color: #cd150c;
+  z-index: 1;
 }
 
 .tn-boxMaisLidas header > .tn-tituloSessao {
