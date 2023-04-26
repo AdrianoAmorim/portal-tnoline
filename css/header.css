@@ -6,6 +6,7 @@ header {
   justify-content: center;
   width: 100%;
   background-color: #fff;
+  padding: 5px 0;
 }
 header .tn-boxHeader {
   display: flex;
@@ -15,12 +16,11 @@ header .tn-boxHeader {
   height: 10rem;
 }
 header .tn-header-boxLogo{
-  width: 100%;
-  max-width: 13rem;
-  min-width: 8rem;
+ width: 13rem
 }
 header .tn-header-boxLogo > img{
-  width: 100%;
+  width: 13rem;
+  height: 5rem;
  }
 header .tn-boxHeader .tn-header-boxOptionLeft{
   display: flex;
