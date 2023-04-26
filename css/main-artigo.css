@@ -203,6 +203,7 @@ article .tn-catRelacionadas > .links-catRelacionadas > .left {
 }
 article .tn-catRelacionadas > .links-catRelacionadas > .rigth {
   flex: 2;
+  margin-top: 8px;
 }
 
 article .tn-catRelacionadas > .links-catRelacionadas > .rigth > a {
@@ -250,7 +251,7 @@ article .tn-receberNoticias > div > a > div {
   height: 2rem;
   background: #e1e1e1;
   border-radius: 50%;
-  padding: .2rem .4rem;
+  padding: .4rem .4rem;
 }
 article .tn-receberNoticias > div > a > div > img {
   width: 100%;
