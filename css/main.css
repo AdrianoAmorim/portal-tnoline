@@ -36,7 +36,22 @@ main .tn-investigacao .container > .tn-content-investigacao {
   flex-direction: column;
   width: calc(100% - 26%);
 }
-
+main .tn-investigacao .container > .tn-content-investigacao .tn-redacao{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem
+}
+main .tn-investigacao .container > .tn-content-investigacao .tn-redacao h4{
+  font-family: "Lato",sans-serif;
+  font-size:.8rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+main .tn-investigacao .container > .tn-content-investigacao .tn-redacao time{
+  font-family: "Lato",sans-serif;
+  font-size:.7rem;
+  color: #646464;
+}
 main .tn-investigacao .container > .tn-content-investigacao > h1 {
   font-size: 3.2rem;
   color: var(--tn-tx-black);
