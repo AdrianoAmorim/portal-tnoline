@@ -42,8 +42,8 @@
   margin-right: 5px;
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption > span{
-  font-size: .8rem;
-  color:#707070 ;
+  font-size: .7rem;
+  color:#575757 ;
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo > img {
   width: 100%;
@@ -558,5 +558,15 @@ padding: 1rem 0;
 @media(max-width:1024px){
   .tn-bannerAnuncie > span{
     font-size: .8rem;
+  }
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption > span{
+    font-size: .5rem;
+    font-weight: 600;
+  }
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption{
+    padding: 2px 8px;
+    background: rgba(255,255,255,.8);
+    right: 17px;
+    bottom: 37px;
   }
 }
