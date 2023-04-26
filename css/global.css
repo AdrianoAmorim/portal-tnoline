@@ -24,6 +24,40 @@ body {
 .tn-container-fixed{
   width: 100%;
 }
+.btnFloat-compartilhar,.btnFloat-font,.btnFloat-top{
+  position: fixed;
+  bottom: 140px;
+  right: 16px;
+}
+
+.tn-btnFloat button{
+  width: 48px;
+  height: 48px;
+  z-index: 10;
+  box-shadow: 0 8px 16px rgb(0, 0, 0, .4);
+  padding: 12px 16px 14px;
+  border: none;
+  background-color: #e61f22;
+  border-radius: 8px;
+}
+.tn-btnFloat button >img{
+  width: 100%;
+}
+.btnFloat-font button{
+  background-color: #2e2e2e;
+}
+
+.btnFloat-font{
+  left: 16px;
+  bottom: 70px;
+}
+.btnFloat-top button{
+  background-color: #2e2e2e;
+}
+
+.btnFloat-top{
+  bottom: 70px;
+}
 
 @media(max-width: 1024px){
   .container{
