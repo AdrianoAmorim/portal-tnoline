@@ -222,6 +222,7 @@ article .tn-receberNoticias {
 }
 article .tn-receberNoticias > h5 {
   font-family: "Lato", sans-serif;
+  color: var(--tn-tx-black);
   font-size: 1.1rem;
   width: 100%;
   max-width: 20rem;
@@ -237,12 +238,11 @@ article .tn-receberNoticias > div > a {
   cursor: pointer;
 }
 article .tn-receberNoticias > div > a > div {
-  width: 100%;
-  max-width: 46px;
+  width: 2rem;
+  height: 2rem;
   background: #e1e1e1;
   border-radius: 50%;
-  vertical-align: center;
-  padding: 2px 8px;
+  padding: .2rem .4rem;
 }
 article .tn-receberNoticias > div > a > div > img {
   width: 100%;
@@ -275,6 +275,8 @@ article .tn-receberNoticias > div > form > button {
   margin-left: -5px;
   cursor: pointer;
 }
+
+/*SESSÃO MAIS NOTICIAS*/
 article .tn-maisNoticias {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,99 @@
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #222;
+  padding-bottom: 2rem;
+}
+
+footer .tn-boxFooter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+footer .tn-boxFooter .titulo-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+footer .tn-boxFooter .titulo-footer > span {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Lato", sans-serif;
+}
+footer .tn-boxFooter .tn-footer-iconsSociais {
+  display: flex;
+  align-items: center;
+}
+footer .tn-boxFooter .tn-footer-iconsSociais a {
+  display: block;
+  width: 100%;
+  max-width: 1.5rem;
+  margin-left: 0.5rem;
+}
+footer .tn-boxFooter .tn-footer-iconsSociais a > img {
+  width: 100%;
+}
+
+footer .fn-footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+}
+footer .fn-footer-links .footer-coluna {
+  display: flex;
+  flex-direction: column;
+}
+footer .fn-footer-links .footer-coluna:nth-child(5){
+    display: flex;
+    justify-content: center;
+
+}
+footer .fn-footer-links .footer-coluna:nth-child(5) >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12rem;
+    border-left: 1px solid #c7c7c7;
+    padding-left: 1.6rem;
+}
+footer .fn-footer-links .footer-coluna > h3 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+  
+}
+footer .fn-footer-links .footer-coluna > ul > li {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+footer .fn-footer-links .footer-coluna > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 0.9rem;
+}
+
+footer .fn-footer-links .footer-coluna >div> figure {
+  width: 100%;
+  max-width: 8rem;
+}
+footer .fn-footer-links .footer-coluna >div > figure > img {
+  width: 100%;
+}
+footer .fn-footer-links .footer-coluna >div> .tx-footer-creditos {
+  width: 100%;
+  max-width: 8rem;
+}
+footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7rem;
+}
+
