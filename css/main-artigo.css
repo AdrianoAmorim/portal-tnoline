@@ -141,7 +141,6 @@
 }
 article {
   word-wrap: break-word;
- 
   color: var(--tn-tx-black);
 }
 
@@ -381,9 +380,8 @@ article .tn-comentarios-rodape .tn-comentarios .tx-comentarios{
 }
 
 article .tn-comentarios-rodape .tn-comentarios .tx-comentarios > span{
-  font-size: .8rem !important;
+  font-size: .8rem;
   font-family: "Lato",sans-serif;
-  line-height: -3px !important;
 }
 
 article .tn-comentarios-rodape .bar-verComentarios{
@@ -431,6 +429,10 @@ article .tn-comentarios-rodape .bar-verComentarios >div>img{
 }
 
 @media (max-width:1024px){
+  article p{
+    font-size: 1rem;
+    font-weight: 500;
+  }
   .tn-artigo .tn-boxContent-artigo{
     gap: 0;
   }
@@ -439,5 +441,54 @@ article .tn-comentarios-rodape .bar-verComentarios >div>img{
   }
   .tn-artigo .tn-boxContent-artigo .tn-content-artigo{
     width: 100%;
+  }
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .tn-creditos-artigo > .tx-credito > .tn-googleNews{
+    max-width: 22rem ;
+  }
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .tn-creditos-artigo > .tx-credito > .tn-googleNews > span{
+    font-size: 1.2rem;
+    color: #222;
+  }
+  article .tn-receberNoticias > div > a > div{
+    padding: .4rem .4rem ;
+  }
+  article .tn-catRelacionadas > .links-catRelacionadas > .left{
+    gap: 5px;
+
+  }
+  article .tn-catRelacionadas > .links-catRelacionadas > .left > a:before{
+    content: "#";
+  }
+  
+  article .tn-catRelacionadas > .links-catRelacionadas > .left > a{
+    color: #e61f22;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: lowercase;
+        border: 1px solid #dbdbdb;
+        border-radius: 0.3rem;
+  }
+  article .tn-catRelacionadas > .links-catRelacionadas > .rigth{
+    display: none;
+  }
+  article .tn-comentarios-rodape .bar-verComentarios{
+    background-color: #e61f22;
+    border-radius: 8px;
+  }
+  article .tn-comentarios-rodape .bar-verComentarios span{
+    font-size: 1.2rem
+  }
+  article .tn-comentarios-rodape .bar-verComentarios >div{
+    display: none;
+  }
+  article .tn-comentarios-rodape .tn-comentarios .tx-comentarios{
+padding: 1rem 0;
+  }
+  article .tn-comentarios-rodape .tn-comentarios .tx-comentarios > span{
+    font-size: 1rem;
+  }
+  article .tn-comentarios-rodape .tn-comentarios h2 >span{
+    color: #232323;
   }
 }
