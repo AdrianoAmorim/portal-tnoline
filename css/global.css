@@ -5,10 +5,9 @@
 @import url(./main.css);
 @import url(./footer.css);
 
-@font-face {
-  font-family: "Lato";
-  src: url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 
 * {
   box-sizing: border-box;
