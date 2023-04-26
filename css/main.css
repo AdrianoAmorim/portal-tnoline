@@ -234,3 +234,25 @@ main
     font-family: "Lato",sans-serif;
     color: var(--tn-tx-black);
    }
+
+   @media(max-width:1024px){
+    main > header > .container > h2{
+      background-color: #e61f22;
+      max-width: 6rem;
+      padding: 5px 0 5px 6px;
+      font-size: .7rem;
+      color: #fff;
+
+    }
+    main .tn-investigacao .container > .tn-content-investigacao{
+      width: 100%;
+    }
+    main .tn-investigacao .container > .tn-content-investigacao > h1{
+      font-size: 1.5rem;
+      color: #000;
+    }
+    main .tn-investigacao .container > .tn-content-investigacao > h2{
+      font-size: 1.3rem;
+      color: #000;
+    }
+   }
