@@ -459,7 +459,9 @@ article .tn-comentarios-rodape .bar-verComentarios >div>img{
   article .tn-catRelacionadas > .links-catRelacionadas > .left > a:before{
     content: "#";
   }
-  
+  article .tn-catRelacionadas > .titulo-catRelacionadas > span{
+    color:#222;
+  }
   article .tn-catRelacionadas > .links-catRelacionadas > .left > a{
     color: #e61f22;
     font-size: 1.1rem;

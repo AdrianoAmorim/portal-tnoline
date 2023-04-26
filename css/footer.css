@@ -136,8 +136,10 @@ footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span {
   }
   footer .fn-footer-links .footer-coluna >div> .tx-footer-creditos{
     max-width: 100%;
+    text-align: center;
+    margin-top: 1rem;
   }
   footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span{
-    font-size: 1rem;
+    font-size: .9rem;
   }
 }
