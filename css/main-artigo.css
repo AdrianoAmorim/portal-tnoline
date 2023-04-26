@@ -526,4 +526,7 @@ padding: 1rem 0;
     font-weight: 700;
     font-size: .9rem;
   }
+  .tn-publicidade > div{
+    max-width: 12rem;
+  }
 }
