@@ -117,10 +117,20 @@
       padding: 12px 0;
     }
     .tn-navBar{
-      max-width: 41rem;
+      max-width: 100%;
+      overflow-x: scroll;
+    overflow-y: hidden;
+    }
+    .tn-navBar > ul{
+      width: max-content;
+      max-width: 100%;
     }
     .tn-navBar > ul > li > a{
       font-size: .8rem;
       font-weight: 600;
+    }
+    .tn-navBar > ul > li{
+      margin-left: 10px;
+      white-space: nowrap;
     }
   }

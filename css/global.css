@@ -22,6 +22,8 @@ body {
   max-width: 1140px;
 }
 .tn-container-fixed{
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 .btnFloat-compartilhar,.btnFloat-font,.btnFloat-top{
@@ -29,7 +31,9 @@ body {
   bottom: 140px;
   right: 16px;
 }
-
+.tn-btnFloat{
+  display: none;
+}
 .tn-btnFloat button{
   width: 48px;
   height: 48px;
@@ -48,7 +52,7 @@ body {
 }
 
 .btnFloat-font{
-  left: 16px;
+  left: 26px;
   bottom: 70px;
 }
 .btnFloat-top button{
@@ -67,4 +71,5 @@ body {
   .tn-container-fixed{
     position: fixed;
   }
+  .tn-btnFloat{display: block};
 }

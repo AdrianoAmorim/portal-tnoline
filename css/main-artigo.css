@@ -491,4 +491,15 @@ padding: 1rem 0;
   article .tn-comentarios-rodape .tn-comentarios h2 >span{
     color: #232323;
   }
+  article .tn-comentarios-rodape > .tn-recomendados > .box-itemRecomendado{
+    flex-direction: column;
+    align-items: center;
+  }
+  article .tn-comentarios-rodape > .tn-recomendados .box-itemRecomendado .item-recomendado{
+    align-items: center;
+    text-align: center;
+  }
+  article .tn-comentarios-rodape > .tn-recomendados{
+    align-items: center;
+  }
 }

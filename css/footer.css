@@ -97,3 +97,47 @@ footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span {
   font-size: 0.7rem;
 }
 
+@media (max-width:1024px){
+  footer .tn-boxFooter .titulo-footer > span{
+    display: none;
+  }
+  footer .tn-boxFooter .tn-footer-iconsSociais{
+    gap: 1rem;
+  }
+  footer .fn-footer-links{
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .fn-footer-links .footer-coluna{
+    align-items: center;
+    width: 100%;
+  }
+  footer .fn-footer-links .footer-coluna ul{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  footer .fn-footer-links .footer-coluna > ul > li{
+    margin: 0;
+    border-bottom: 2px solid #2e2e2e;
+    padding: .9rem 0;
+ 
+  }
+  footer .fn-footer-links .footer-coluna > ul > li > a {
+    font-size:1rem ;
+  }
+  footer .fn-footer-links .footer-coluna > h3 {
+    font-size:1.1rem ;
+  }
+  footer .fn-footer-links .footer-coluna:nth-child(5) >div{
+    border: none;
+    padding: 0;
+    align-items: center;
+  }
+  footer .fn-footer-links .footer-coluna >div> .tx-footer-creditos{
+    max-width: 100%;
+  }
+  footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span{
+    font-size: 1rem;
+  }
+}
