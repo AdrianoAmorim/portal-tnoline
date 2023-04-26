@@ -23,6 +23,7 @@ body {
 .container {
   width: 100%;
   max-width: 1140px;
+  padding: 10px;
 }
 .tn-container-fixed{
   display: flex;

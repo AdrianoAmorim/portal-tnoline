@@ -530,3 +530,9 @@ padding: 1rem 0;
     max-width: 12rem;
   }
 }
+
+@media(max-width:1024px){
+  .tn-bannerAnuncie > span{
+    font-size: .8rem;
+  }
+}
