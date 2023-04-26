@@ -183,7 +183,8 @@ article .tn-catRelacionadas > .links-catRelacionadas {
   gap: 5px;
 }
 article .tn-catRelacionadas > .links-catRelacionadas > .left{
-  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 article .tn-catRelacionadas > .links-catRelacionadas > .left > a {
   text-decoration: none;
