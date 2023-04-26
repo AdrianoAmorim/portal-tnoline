@@ -257,7 +257,6 @@ main
       padding: 5px 0 5px 6px;
       font-size: .7rem;
       color: #fff;
-
     }
     main .tn-investigacao .container > .tn-content-investigacao{
       width: 100%;
@@ -280,7 +279,7 @@ main
       width: 100%;
     }
     main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp{
-      max-width: 80%;
+      max-width: 30%;
       margin-top: .7rem;
     }
     main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h5{
@@ -288,5 +287,16 @@ main
     }
     main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h6{
       font-size: .5rem;
+    }
+   }
+   @media(max-width:768px){
+    main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp{
+      max-width: 50%;
+      min-width: 40%;
+    }
+   }
+   @media(max-width:360px){
+    main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp{
+      max-width: 90%;
     }
    }
