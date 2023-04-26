@@ -143,3 +143,20 @@ width: 100%;
 .tn-boxPropaganda .container > div >img{
   width: 100%;
 }
+
+@media(max-width:1024px){
+  
+  .tn-boxMaisLidas{
+    display: none;
+  }
+  .tn-boxPropaganda{
+    margin-top: 6rem;
+  }
+  .tn-boxPropaganda > .container{
+    height: 100%;
+    background-color: transparent;
+  }
+  .tn-boxPropaganda .container > div{
+    max-width: 30rem;
+  }
+}

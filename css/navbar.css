@@ -1,5 +1,6 @@
 /*BARRA DE NAVEGACAO NO HEADER*/
 .tn-box-navBar {
+  position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +8,7 @@
     padding: 5px;
     background-color: var(--tn-tx-red);
     margin-top: -1.5rem;
+    z-index: 1;
   }
   .tn-box-navBar .container{
     display: flex;
@@ -107,3 +109,18 @@
     flex-direction: column;
   }
   
+  @media (max-width:1024px) {
+    .tn-boxClimaCotacao{
+      display: none;
+    }
+    .tn-box-navBar{
+      padding: 12px 0;
+    }
+    .tn-navBar{
+      max-width: 41rem;
+    }
+    .tn-navBar > ul > li > a{
+      font-size: .8rem;
+      font-weight: 600;
+    }
+  }

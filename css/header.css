@@ -70,7 +70,7 @@ header .tn-header-boxBusca >.iconBusca{
 header .tn-header-boxBusca >.iconBusca > img{
   width: 100%;
 }
-header .tn-header-boxBusca > span{
+header .tn-header-boxBusca > a{
    font-size: 0.8rem;
   color: var(--tn-tx-red);
   text-decoration: none;
@@ -99,3 +99,37 @@ header .tn-header-boxEdicao .tn-img-edicao img {
   width: 100%;
 }
 
+@media (max-width: 1024px){
+ header{
+ 
+ }
+  header .tn-header-boxEdicao{
+    display: none;
+  }
+  header .tn-boxHeader{
+    height: 100%;
+  }
+  header .tn-header-boxLogo{
+    width: 100%;
+    max-width: 8rem;
+  }
+   header .tn-header-boxLogo > img{
+    width: 100%;
+   }
+  header .tn-boxHeader{
+    flex-direction: row-reverse;
+  }
+  header .tn-boxHeader .tn-header-boxOptionLeft{
+    flex-direction: row-reverse;
+  }
+  header .tn-boxHeader .tn-header-boxOptionLeft .tn-box-btnMenu > a,
+  header .tn-boxHeader .tn-header-boxOptionLeft .tn-header-boxBusca > a{
+display: none;
+  }
+  header .tn-header-boxBusca >.iconBusca{
+    width: 2.8rem;
+  }
+.tn-box-navBar{
+    margin-top: 0;
+  }
+}
