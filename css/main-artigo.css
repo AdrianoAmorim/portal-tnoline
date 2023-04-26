@@ -38,10 +38,12 @@
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption >img{
   width: 20px !important;
   height: 20px !important;
+  margin-top:-2px;
+  margin-right: 5px;
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption > span{
   font-size: .8rem;
-  color:#797979 ;
+  color:#707070 ;
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo > img {
   width: 100%;
