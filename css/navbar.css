@@ -115,21 +115,21 @@
       display: none;
     }
     .tn-box-navBar{
-      padding: 12px 0;
+      padding: 8px 0;
     }
     .tn-navBar{
-      max-width: 100%;
+      width: 100%;
       overflow-x: scroll;
     overflow-y: hidden;
     }
     .tn-navBar::-webkit-scrollbar{
-      background: #e61f22;
+      background: transparent;
       height: 8px;
+      margin-top:15px;
     }
     .tn-navBar::-webkit-scrollbar-thumb{
       background: #af181bcc;
       border-radius: 8px;
-      
       height: 8px;
     } 
 
