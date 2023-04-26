@@ -109,6 +109,7 @@
     flex-direction: column;
   }
   
+
   @media (max-width:1024px) {
     .tn-boxClimaCotacao{
       display: none;
@@ -120,6 +121,22 @@
       max-width: 100%;
       overflow-x: scroll;
     overflow-y: hidden;
+    }
+    .tn-navBar::-webkit-scrollbar{
+      background: #e61f22;
+      height: 8px;
+    }
+    .tn-navBar::-webkit-scrollbar-thumb{
+      background: #af181bcc;
+      border-radius: 8px;
+      
+      height: 8px;
+    } 
+
+    .tn-navBar::-webkit-scrollbar-track-piece{
+      background: transparent;
+      border-radius: 8px;
+      height: 8px;
     }
     .tn-navBar > ul{
       width: max-content;
