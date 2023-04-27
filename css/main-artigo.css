@@ -557,14 +557,12 @@ padding: 1rem 0;
   .tn-bannerAnuncie > span{
     font-size: .8rem;
   }
-  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption > span{
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption{
     font-size: .5rem;
     font-weight: 600;
-  }
-  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption{
     padding: 2px 8px;
     background: rgba(255,255,255,.8);
     right: 17px;
-    bottom: 37px;
+    bottom:20px;
   }
 }
