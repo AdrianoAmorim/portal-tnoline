@@ -253,7 +253,7 @@ article .tn-receberNoticias {
   margin: 1rem 0;
   padding: 1rem 0;
 }
-article .tn-receberNoticias > h5 {
+article .tn-receberNoticias > h3 {
   font-family: "Lato", sans-serif;
   color: var(--tn-tx-black);
   font-size: 1.1rem;

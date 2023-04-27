@@ -41,7 +41,7 @@ main .tn-investigacao .container > .tn-content-investigacao .tn-redacao{
   flex-direction: column;
   margin-top: 1rem
 }
-main .tn-investigacao .container > .tn-content-investigacao .tn-redacao h4{
+main .tn-investigacao .container > .tn-content-investigacao .tn-redacao h3{
   font-family: "Lato",sans-serif;
   font-size:.8rem;
   font-weight: 400;
@@ -235,7 +235,7 @@ main
    .tn-investigacao
    .container
    > .tn-content-investigacao
-   > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h5{
+   > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h4{
     font-size: 1rem;
     color: #2fb140;
     font-family: "Lato",sans-serif;
@@ -244,7 +244,7 @@ main
    .tn-investigacao
    .container
    > .tn-content-investigacao
-   > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h6{
+   > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h5{
     font-size: .7rem;
     font-family: "Lato",sans-serif;
     color: var(--tn-tx-black);
@@ -282,7 +282,7 @@ main
       max-width: 30%;
       margin-top: .7rem;
     }
-    main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h5{
+    main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h4{
       font-size: .7rem ;
     }
     main .tn-investigacao .container > .tn-content-investigacao > .tn-redesSociais .tn-boxWhatsapp .tn-tx-linkWhats h6{
