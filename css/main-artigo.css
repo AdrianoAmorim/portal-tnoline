@@ -47,7 +47,7 @@
   width: 100%;
   border-radius: 4px;
 }
-.tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo > span {
+.tn-artigo .tn-boxContent-artigo .tn-content-artigo .box-img-artigo > span {
   color: var(--tn-tx-gray);
   font-family: "Lato", sans-serif;
   font-size: 0.9rem;
