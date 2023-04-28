@@ -39,7 +39,7 @@
     display: flex;
     justify-content: end;
     width: 100%;
-    max-width: 28rem;
+    max-width: 22rem;
   }
   .tn-boxClimaCotacao .tn-clima {
     display: flex;
@@ -111,7 +111,11 @@
     flex-direction: column;
   }
   
-
+@media(max-width:1115px){
+  .tn-box-navBar .container{
+    padding: 0 70px;
+  }
+}
   @media (max-width:1024px) {
     .tn-boxClimaCotacao{
       display: none;

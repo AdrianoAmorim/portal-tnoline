@@ -37,7 +37,7 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1184px;
   padding: 10px;
 }
 .tn-container-fixed{
@@ -83,7 +83,11 @@ body {
 .btnFloat-top{
   bottom: 70px;
 }
-
+@media(max-width: 1115px){
+  .container{
+    padding: 0 65px;
+  }
+}
 @media(max-width: 1024px){
   .container{
     max-width: 100%;

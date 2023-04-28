@@ -186,7 +186,7 @@ article h2{
    font-family: "lato-light", sans-serif;
 }
 article p i {
-  color: var(--tn-tx-black);
+  color: #333;
   font-weight: 700;
 }
 article a {
@@ -303,8 +303,8 @@ article .tn-receberNoticias > div > form > input {
   border-radius: 6px;
   outline: 0;
   border: 1px solid #f1f1f1;
-  padding-inline-start: 10px;
-  font-size: 0.9rem;
+  padding-inline-start: 5px;
+  font-size: 14px;
   font-family: "lato", sans-serif;
 }
 article .tn-receberNoticias > div > form > button {
