@@ -13,7 +13,7 @@ header .tn-boxHeader {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 10rem;
+  height: 9rem;
 }
 header .tn-header-boxLogo{
  width: 100%;
@@ -34,10 +34,10 @@ header .tn-header-boxMenu {
   max-width: 10rem;
 }
 header .tn-header-boxMenu a {
-  font-size: 0.8rem;
+  font-size: 14px;
   color: var(--tn-tx-red);
   text-decoration: none;
-  font-family: "Lato", sans-serif;
+  font-family: "lato-bold", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   margin-left: 1rem;
@@ -78,10 +78,10 @@ header .tn-header-boxBusca >.iconBusca > img{
   width: 100%;
 }
 header .tn-header-boxBusca > a{
-   font-size: 0.8rem;
+   font-size: 14px;
   color: var(--tn-tx-red);
   text-decoration: none;
-  font-family: "Lato", sans-serif;
+  font-family: "lato-bold", sans-serif;
   margin-left: .8rem;
   font-weight: 600;
 }
@@ -90,13 +90,24 @@ header .tn-header-boxEdicao {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  max-width: 200px;
+  
+  margin-bottom: -4rem;
 }
 
-header .tn-header-boxEdicao a {
+header .tn-header-boxEdicao a{
   text-decoration: none;
-  font-family: "Lato", sans-serif;
-  color: var(--tn-tx-black);
+  padding-left: 20px;
+  margin-top: -2rem;
+}
+header .tn-header-boxEdicao a > h6 {
+  text-decoration: none;
+  font-family: "lato-bold", sans-serif;
+  font-size: 13px;
+  color: #333;
   font-weight: 600;
+  text-transform: uppercase;
 }
 header .tn-header-boxEdicao .tn-img-edicao {
   width: 100%;

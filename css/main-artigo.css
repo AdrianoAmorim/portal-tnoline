@@ -67,10 +67,19 @@
   .tn-creditos-artigo
   > .tx-credito
   > span {
-  font-size: 1rem;
-  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-family: "lato", sans-serif;
   color: #808080;
 }
+.tn-artigo
+  .tn-boxContent-artigo
+  .tn-content-artigo
+  .tn-creditos-artigo
+  > .tx-credito
+  > span  > strong{
+    font-family: 'lato-bold',sans-serif;
+    font-weight: 700;
+  }
 .tn-artigo
   .tn-boxContent-artigo
   .tn-content-artigo
@@ -78,19 +87,10 @@
   > .tx-credito
   > div {
   margin-top: 0.5rem;
-}
-.tn-artigo
-  .tn-boxContent-artigo
-  .tn-content-artigo
-  .tn-creditos-artigo
-  > .tx-credito
-  > div
-  > span {
-  font-size: 0.9rem;
-  font-family: "Lato", sans-serif;
+   font-size:14px;
+  font-family: "lato-light", sans-serif;
   color: #808080;
 }
-
 .tn-artigo
   .tn-boxContent-artigo
   .tn-content-artigo
@@ -133,26 +133,32 @@
 }
 .tn-bannerAnuncie > span {
   background-color: #e1e1e1;
-  font-size: 1rem;
-  font-family: "Lato", sans-serif;
-  color: var(--tn-tx-black);
+  font-size: 16px;
+  font-family: "lato-light", sans-serif;
+  color: #333 ;
   padding: 0.3rem;
   font-style: italic;
 }
 .tn-bannerAnuncie > span > a {
   color: #e61f22;
+  text-decoration: none;
 }
 .tn-bannerAnuncie > span > a > b {
   font-style: normal;
+  font-family: "lato-bold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 .tn-publicidade {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.tn-publicidade > span {
-  font-size: 0.7rem;
-  color: #808080;
+.tn-publicidade > h6 {
+  font-family: "lato-light",sans-serif;
+  font-size: 10px;
+  color: #333;
+  margin-bottom: 10px;
 }
 .tn-publicidade > div {
   width: 100%;
@@ -167,11 +173,17 @@ article {
 }
 
 article p {
-  font-family: "Lato", sans-serif;
+  font-family: "lato-light", sans-serif;
   font-weight: 300;
   line-height: 32px;
-  font-size: 1.5rem;
+  font-size: 22px;
   margin-bottom: 2.7rem;
+  color:#333;
+}
+article h2{
+  font-weight: 700;
+  font-size: 30px; 
+   font-family: "lato-light", sans-serif;
 }
 article p i {
   color: var(--tn-tx-black);
@@ -191,9 +203,9 @@ article .tn-catRelacionadas >.titulo-catRelacionadas{
   margin-bottom: 15px;
 }
 article .tn-catRelacionadas > .titulo-catRelacionadas > span {
-  font-size: 1rem;
-  color: var(--tn-tx-gray);
-  font-family: "Lado", sans-serif;
+  font-size: 14px;
+  color:#a9a9a9 ;
+  font-family: "lato-bold", sans-serif;
   font-weight: 600;
 }
 
@@ -212,9 +224,9 @@ article .tn-catRelacionadas > .links-catRelacionadas > .left > a {
   background-color: #f9f9f9;
   border: 1px solid #f1f1f1;
   border-radius: 0.25rem;
-  color: var(--tn-tx-black);
-  font-family: "Lado", sans-serif;
-  font-size: 0.9rem;
+  color: #797979 ;
+  font-family: "lato", sans-serif;
+  font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
   padding: 8px;
@@ -233,9 +245,9 @@ article .tn-catRelacionadas > .links-catRelacionadas > .rigth > a {
   background-color: #f9f9f9;
   border: 1px solid #f1f1f1;
   border-radius: 0.25rem;
-  color: var(--tn-tx-black);
-  font-family: "Lado", sans-serif;
-  font-size: 0.9rem;
+  color: #797979 ;
+  font-family: "lato", sans-serif;
+  font-size:14px;
   font-weight: 400;
   padding: 8px;
 }
@@ -252,9 +264,9 @@ article .tn-receberNoticias {
   padding: 1rem 0;
 }
 article .tn-receberNoticias > h3 {
-  font-family: "Lato", sans-serif;
-  color: var(--tn-tx-black);
-  font-size: 1.1rem;
+  font-family: "lato-bold", sans-serif;
+  color: #333;
+  font-size: 17px;
   width: 100%;
   max-width: 20rem;
 }
@@ -293,7 +305,7 @@ article .tn-receberNoticias > div > form > input {
   border: 1px solid #f1f1f1;
   padding-inline-start: 10px;
   font-size: 0.9rem;
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 article .tn-receberNoticias > div > form > button {
   height: 2rem;
@@ -305,6 +317,8 @@ article .tn-receberNoticias > div > form > button {
   border-bottom-right-radius: 6px;
   margin-left: -5px;
   cursor: pointer;
+  font-family: "lato-bold", sans-serif;
+  font-size: 12px;
 }
 
 /*SESSÃO MAIS NOTICIAS Apucarana*/
@@ -316,12 +330,13 @@ article .tn-maisNoticias {
   margin-bottom: 1rem;
 }
 article .tn-maisNoticias > h2 {
-  font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-family: "lato-bold", sans-serif;
+  font-weight: 500;
 }
 article .tn-maisNoticias > ul > li {
   list-style: none;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid #c7c7c7;
 }
 article .tn-maisNoticias > ul > li:last-child {
@@ -329,8 +344,8 @@ article .tn-maisNoticias > ul > li:last-child {
 }
 article .tn-maisNoticias > ul > li > a {
   text-decoration: none;
-  font-size: 1rem;
-  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-family: "lato", sans-serif;
   color: #222;
 }
 
@@ -389,13 +404,15 @@ article .tn-comentarios-rodape .tn-comentarios{
   margin: 1rem 0;
 }
 article .tn-comentarios-rodape .tn-comentarios h2{
-  font-size: 1.1rem;
-  font-family: "Lato",sans-serif;
+  font-size: 18px;
+  font-family: "lato-bold",sans-serif;
 
 }
 
 article .tn-comentarios-rodape .tn-comentarios h2 >span{
   color: #e61f22;
+  font-size: 18px;
+  font-family: "lato-bold",sans-serif;
 }
 
 article .tn-comentarios-rodape .tn-comentarios .tx-comentarios{
@@ -403,8 +420,8 @@ article .tn-comentarios-rodape .tn-comentarios .tx-comentarios{
 }
 
 article .tn-comentarios-rodape .tn-comentarios .tx-comentarios > span{
-  font-size: .8rem;
-  font-family: "Lato",sans-serif;
+  font-size: .7rem;
+  font-family: "lato",sans-serif;
 }
 
 article .tn-comentarios-rodape .bar-verComentarios{
@@ -420,6 +437,9 @@ article .tn-comentarios-rodape .bar-verComentarios a{
   text-decoration: none;
   display: block;
   margin-top: -5px;
+  font-family: "lato",sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 article .tn-comentarios-rodape .bar-verComentarios span{
   font-size: 1rem !important;

@@ -22,10 +22,9 @@ footer .tn-boxFooter .titulo-footer {
 }
 footer .tn-boxFooter .titulo-footer > span {
   color: #fff;
-  font-size: 1rem;
+  font-size: 17px;
   font-weight: 700;
-  letter-spacing: 2px;
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 footer .tn-boxFooter .tn-footer-iconsSociais {
   display: flex;
@@ -65,8 +64,8 @@ footer .fn-footer-links .footer-coluna:nth-child(5) >div{
 }
 footer .fn-footer-links .footer-coluna > h3 {
   color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
+  font-family: "lato-bold", sans-serif;
+  font-size: 17px;
   
 }
 footer .fn-footer-links .footer-coluna > ul > li {
@@ -76,8 +75,8 @@ footer .fn-footer-links .footer-coluna > ul > li {
 footer .fn-footer-links .footer-coluna > ul > li > a {
   text-decoration: none;
   color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
+  font-family: "lato", sans-serif;
+  font-size:14px;
 }
 
 footer .fn-footer-links .footer-coluna >div> figure {
@@ -93,8 +92,8 @@ footer .fn-footer-links .footer-coluna >div> .tx-footer-creditos {
 }
 footer .fn-footer-links .footer-coluna > div> .tx-footer-creditos > span {
   color: #fff;
-  font-family: "Lato", sans-serif;
-  font-size: 0.7rem;
+  font-family: "lato", sans-serif;
+  font-size: 12px;
 }
 
 @media (max-width:1024px){
