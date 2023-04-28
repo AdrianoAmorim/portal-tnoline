@@ -78,7 +78,25 @@ margin-bottom: 10px;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
 }
-
+.tn-maisNoticias-rodape .container .tn-btnMaisNoticias{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.tn-maisNoticias-rodape .container .tn-btnMaisNoticias a{
+    text-decoration: none;
+}
+.tn-maisNoticias-rodape .container .tn-btnMaisNoticias button{
+    background-color: #222;
+    width: 100%;
+    font-size: 12px;
+    font-family: "lato",sans-serif;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 4px;
+}
 @media(max-width:370px){
     .tn-maisNoticias-rodape .content-maisnoticias-rodape .item-maisNoticias-rodape >.img-maisNoticias-rodape figure{
         width: 180px;
