@@ -4,6 +4,7 @@ article .tn-tribunaPlay{
     align-items: start;
     width: 100%;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 article .tn-tribunaPlay .header-tribunaPlay > header{
     width: 100%;
@@ -22,10 +23,9 @@ article .tn-tribunaPlay > .content-tribunaPlay{
 display: flex;
 justify-content: space-between;
 width: 100%;
-
-    border:1px solid #f1f1f1;
-    background-color: #fff;
-    border-radius: 0 5px 5px 0;
+border:1px solid #f1f1f1;
+background-color: #fff;
+border-radius: 0 5px 5px 0;
 }
 
 article .tn-tribunaPlay > .content-tribunaPlay .text-tribunaPlay{
