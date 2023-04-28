@@ -185,7 +185,7 @@ article p {
 }
 article h2{
   font-weight: 700;
-  font-size: 30px; 
+  font-size: 25px; 
    font-family: "lato-light", sans-serif;
 }
 article p i {
@@ -369,8 +369,8 @@ article .tn-comentarios-rodape > .tn-recomendados > h2{
   font-family: "Lato",sans-serif;
   color: #a31e24;
   border-bottom: 4px solid #a31e24;
-  margin: 0 0 6px;
-  width: 18rem;
+  width: 17rem;
+  margin-bottom: 10px;
 }
 
 article .tn-comentarios-rodape > .tn-recomendados > .box-itemRecomendado{
