@@ -1,0 +1,65 @@
+article .tn-tribunaPlay{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin-top: 30px;
+}
+article .tn-tribunaPlay .header-tribunaPlay > header{
+    width: 100%;
+    margin-bottom: 15px;
+}
+article .tn-tribunaPlay .header-tribunaPlay header > h4{
+    font-size: 22px;
+    font-family: "lato-bold",sans-serif;
+    background-color: #e61f22 ;
+    color:#fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+article .tn-tribunaPlay > .content-tribunaPlay{
+display: flex;
+justify-content: space-between;
+width: 100%;
+
+    border:1px solid #f1f1f1;
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+article .tn-tribunaPlay > .content-tribunaPlay .text-tribunaPlay{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 30px;
+
+}
+article .tn-tribunaPlay .content-tribunaPlay > .img-tribunaPlay figure{
+height: 215px;
+}
+article .tn-tribunaPlay .content-tribunaPlay > .img-tribunaPlay figure > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+article .tn-tribunaPlay > .content-tribunaPlay .text-tribunaPlay > .img-tx-tribunaPlay{
+    width: 150px;
+    margin-bottom: 10px;
+}
+article .tn-tribunaPlay > .content-tribunaPlay .text-tribunaPlay > .img-tx-tribunaPlay img{
+    width: 100%;
+    object-fit: contain;
+}
+article .tn-tribunaPlay > .content-tribunaPlay .text-tribunaPlay .content-tx-tribunaPlay >h3{
+    font-size: 22px;
+    font-family: "lato-bold",sans-serif;
+    color:#333;
+}
+
+@media(max-width: 1024px){
+    article .tn-tribunaPlay{
+        display: none;
+    }
+}
