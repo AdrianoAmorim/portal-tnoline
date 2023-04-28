@@ -20,7 +20,7 @@
   width: 100%;
   background-color: var(--tn-bg-gray);
   padding: 0.3rem;
-  border-radius: 4px;
+  border-radius: 5px 5px 0 0 ;
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo figcaption{
   display:flex;
@@ -45,13 +45,17 @@
 }
 .tn-artigo .tn-boxContent-artigo .tn-content-artigo .img-artigo > img {
   width: 100%;
-  border-radius: 4px;
+  border-radius: 5px;
 }
-.tn-artigo .tn-boxContent-artigo .tn-content-artigo .box-img-artigo > span {
-  color: var(--tn-tx-gray);
-  font-family: "Lato", sans-serif;
+.tn-artigo .tn-boxContent-artigo .tn-content-artigo .box-img-artigo  span {
+  display: inline-block;
+  color: #8c8c8c;
+  font-family: "lato", sans-serif;
   font-size: 0.9rem;
-  margin-left: 0.7rem;
+  border-radius: 0 0 5px 5px;
+  background-color: var(--tn-bg-gray);
+  width: 100%;
+  padding: 0 0 5px 12px;
 }
 
 /*CREDITOS DO ARTIGO*/
