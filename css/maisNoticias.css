@@ -28,7 +28,7 @@ z-index: 4;
 
 .tn-maisNoticias-rodape .content-maisnoticias-rodape .item-maisNoticias-rodape{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
     border:1px solid #f1f1f1;
     background-color: #fff;
