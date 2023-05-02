@@ -588,4 +588,7 @@ padding: 1rem 0;
     right: 17px;
     bottom:20px;
   }
+  .tn-artigo .tn-boxContent-artigo .tn-content-artigo .box-img-artigo  figure{
+    margin-bottom: -1px;
+  }
 }
